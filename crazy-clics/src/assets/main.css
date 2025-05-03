@@ -1,0 +1,26 @@
+@import './base.css';
+
+:root {
+  --main-black: #1a1a1a;
+  --main-white: #ffffff;
+  --main-orange: #ff6900;
+  --second-buttons: linear-gradient(#8f92cd, #a0cedc, #a6e5e2);
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--main-black);
+}
+
+h1 {
+  font-size: 2.625rem;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.625rem;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+@import './base.css';
+
+:root {
+  --main-color: #007f81;
+  --main-black: black;
+  --main-white: white;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--main-black);
+  overflow-x: hidden;
+}
+p {
+  font-weight: bold;
+}
+span {
+  color: var(--main-color);
+}
